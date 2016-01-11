@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4910C3F21C437E6300111F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4910C3F11C437E6300111F99 /* main.m */; };
+		4910C3F51C437E6300111F99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4910C3F41C437E6300111F99 /* AppDelegate.m */; };
+		4910C3F81C437E6300111F99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4910C3F71C437E6300111F99 /* ViewController.m */; };
+		4910C3FB1C437E6300111F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4910C3F91C437E6300111F99 /* Main.storyboard */; };
+		4910C3FE1C437E6300111F99 /* molakeFramework.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4910C3FC1C437E6300111F99 /* molakeFramework.xcdatamodeld */; };
+		4910C4001C437E6300111F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4910C3FF1C437E6300111F99 /* Assets.xcassets */; };
+		4910C4031C437E6300111F99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4910C4011C437E6300111F99 /* LaunchScreen.storyboard */; };
+		4910C40E1C437E6300111F99 /* molakeFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4910C40D1C437E6300111F99 /* molakeFrameworkTests.m */; };
+		4910C4191C437E6300111F99 /* molakeFrameworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4910C4181C437E6300111F99 /* molakeFrameworkUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4910C40A1C437E6300111F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4910C3E51C437E6300111F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4910C3EC1C437E6300111F99;
+			remoteInfo = molakeFramework;
+		};
+		4910C4151C437E6300111F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4910C3E51C437E6300111F99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4910C3EC1C437E6300111F99;
+			remoteInfo = molakeFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4910C3ED1C437E6300111F99 /* molakeFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = molakeFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4910C3F11C437E6300111F99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4910C3F31C437E6300111F99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4910C3F41C437E6300111F99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4910C3F61C437E6300111F99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4910C3F71C437E6300111F99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4910C3FA1C437E6300111F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4910C3FD1C437E6300111F99 /* molakeFramework.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = molakeFramework.xcdatamodel; sourceTree = "<group>"; };
+		4910C3FF1C437E6300111F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4910C4021C437E6300111F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4910C4041C437E6300111F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4910C4091C437E6300111F99 /* molakeFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = molakeFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4910C40D1C437E6300111F99 /* molakeFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = molakeFrameworkTests.m; sourceTree = "<group>"; };
+		4910C40F1C437E6300111F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4910C4141C437E6300111F99 /* molakeFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = molakeFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4910C4181C437E6300111F99 /* molakeFrameworkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = molakeFrameworkUITests.m; sourceTree = "<group>"; };
+		4910C41A1C437E6300111F99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4910C3EA1C437E6300111F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4910C4061C437E6300111F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4910C4111C437E6300111F99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4910C3E41C437E6200111F99 = {
+			isa = PBXGroup;
+			children = (
+				4910C3EF1C437E6300111F99 /* molakeFramework */,
+				4910C40C1C437E6300111F99 /* molakeFrameworkTests */,
+				4910C4171C437E6300111F99 /* molakeFrameworkUITests */,
+				4910C3EE1C437E6300111F99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4910C3EE1C437E6300111F99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4910C3ED1C437E6300111F99 /* molakeFramework.app */,
+				4910C4091C437E6300111F99 /* molakeFrameworkTests.xctest */,
+				4910C4141C437E6300111F99 /* molakeFrameworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4910C3EF1C437E6300111F99 /* molakeFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4910C3F31C437E6300111F99 /* AppDelegate.h */,
+				4910C3F41C437E6300111F99 /* AppDelegate.m */,
+				4910C3F61C437E6300111F99 /* ViewController.h */,
+				4910C3F71C437E6300111F99 /* ViewController.m */,
+				4910C3F91C437E6300111F99 /* Main.storyboard */,
+				4910C3FF1C437E6300111F99 /* Assets.xcassets */,
+				4910C4011C437E6300111F99 /* LaunchScreen.storyboard */,
+				4910C4041C437E6300111F99 /* Info.plist */,
+				4910C3FC1C437E6300111F99 /* molakeFramework.xcdatamodeld */,
+				4910C3F01C437E6300111F99 /* Supporting Files */,
+			);
+			path = molakeFramework;
+			sourceTree = "<group>";
+		};
+		4910C3F01C437E6300111F99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4910C3F11C437E6300111F99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4910C40C1C437E6300111F99 /* molakeFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				4910C40D1C437E6300111F99 /* molakeFrameworkTests.m */,
+				4910C40F1C437E6300111F99 /* Info.plist */,
+			);
+			path = molakeFrameworkTests;
+			sourceTree = "<group>";
+		};
+		4910C4171C437E6300111F99 /* molakeFrameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4910C4181C437E6300111F99 /* molakeFrameworkUITests.m */,
+				4910C41A1C437E6300111F99 /* Info.plist */,
+			);
+			path = molakeFrameworkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4910C3EC1C437E6300111F99 /* molakeFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4910C41D1C437E6300111F99 /* Build configuration list for PBXNativeTarget "molakeFramework" */;
+			buildPhases = (
+				4910C3E91C437E6300111F99 /* Sources */,
+				4910C3EA1C437E6300111F99 /* Frameworks */,
+				4910C3EB1C437E6300111F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = molakeFramework;
+			productName = molakeFramework;
+			productReference = 4910C3ED1C437E6300111F99 /* molakeFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4910C4081C437E6300111F99 /* molakeFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4910C4201C437E6300111F99 /* Build configuration list for PBXNativeTarget "molakeFrameworkTests" */;
+			buildPhases = (
+				4910C4051C437E6300111F99 /* Sources */,
+				4910C4061C437E6300111F99 /* Frameworks */,
+				4910C4071C437E6300111F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4910C40B1C437E6300111F99 /* PBXTargetDependency */,
+			);
+			name = molakeFrameworkTests;
+			productName = molakeFrameworkTests;
+			productReference = 4910C4091C437E6300111F99 /* molakeFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4910C4131C437E6300111F99 /* molakeFrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4910C4231C437E6300111F99 /* Build configuration list for PBXNativeTarget "molakeFrameworkUITests" */;
+			buildPhases = (
+				4910C4101C437E6300111F99 /* Sources */,
+				4910C4111C437E6300111F99 /* Frameworks */,
+				4910C4121C437E6300111F99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4910C4161C437E6300111F99 /* PBXTargetDependency */,
+			);
+			name = molakeFrameworkUITests;
+			productName = molakeFrameworkUITests;
+			productReference = 4910C4141C437E6300111F99 /* molakeFrameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4910C3E51C437E6300111F99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = molake;
+				TargetAttributes = {
+					4910C3EC1C437E6300111F99 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					4910C4081C437E6300111F99 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4910C3EC1C437E6300111F99;
+					};
+					4910C4131C437E6300111F99 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 4910C3EC1C437E6300111F99;
+					};
+				};
+			};
+			buildConfigurationList = 4910C3E81C437E6300111F99 /* Build configuration list for PBXProject "molakeFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4910C3E41C437E6200111F99;
+			productRefGroup = 4910C3EE1C437E6300111F99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4910C3EC1C437E6300111F99 /* molakeFramework */,
+				4910C4081C437E6300111F99 /* molakeFrameworkTests */,
+				4910C4131C437E6300111F99 /* molakeFrameworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4910C3EB1C437E6300111F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4910C4031C437E6300111F99 /* LaunchScreen.storyboard in Resources */,
+				4910C4001C437E6300111F99 /* Assets.xcassets in Resources */,
+				4910C3FB1C437E6300111F99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4910C4071C437E6300111F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4910C4121C437E6300111F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4910C3E91C437E6300111F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4910C3F81C437E6300111F99 /* ViewController.m in Sources */,
+				4910C3F51C437E6300111F99 /* AppDelegate.m in Sources */,
+				4910C3F21C437E6300111F99 /* main.m in Sources */,
+				4910C3FE1C437E6300111F99 /* molakeFramework.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4910C4051C437E6300111F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4910C40E1C437E6300111F99 /* molakeFrameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4910C4101C437E6300111F99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4910C4191C437E6300111F99 /* molakeFrameworkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4910C40B1C437E6300111F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4910C3EC1C437E6300111F99 /* molakeFramework */;
+			targetProxy = 4910C40A1C437E6300111F99 /* PBXContainerItemProxy */;
+		};
+		4910C4161C437E6300111F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4910C3EC1C437E6300111F99 /* molakeFramework */;
+			targetProxy = 4910C4151C437E6300111F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4910C3F91C437E6300111F99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4910C3FA1C437E6300111F99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4910C4011C437E6300111F99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4910C4021C437E6300111F99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4910C41B1C437E6300111F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4910C41C1C437E6300111F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4910C41E1C437E6300111F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = molakeFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.molakeFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4910C41F1C437E6300111F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = molakeFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.molakeFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4910C4211C437E6300111F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = molakeFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.molakeFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/molakeFramework.app/molakeFramework";
+			};
+			name = Debug;
+		};
+		4910C4221C437E6300111F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = molakeFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.molakeFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/molakeFramework.app/molakeFramework";
+			};
+			name = Release;
+		};
+		4910C4241C437E6300111F99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = molakeFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.molakeFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = molakeFramework;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4910C4251C437E6300111F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = molakeFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = molake.molakeFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = molakeFramework;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4910C3E81C437E6300111F99 /* Build configuration list for PBXProject "molakeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4910C41B1C437E6300111F99 /* Debug */,
+				4910C41C1C437E6300111F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4910C41D1C437E6300111F99 /* Build configuration list for PBXNativeTarget "molakeFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4910C41E1C437E6300111F99 /* Debug */,
+				4910C41F1C437E6300111F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4910C4201C437E6300111F99 /* Build configuration list for PBXNativeTarget "molakeFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4910C4211C437E6300111F99 /* Debug */,
+				4910C4221C437E6300111F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4910C4231C437E6300111F99 /* Build configuration list for PBXNativeTarget "molakeFrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4910C4241C437E6300111F99 /* Debug */,
+				4910C4251C437E6300111F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4910C3FC1C437E6300111F99 /* molakeFramework.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4910C3FD1C437E6300111F99 /* molakeFramework.xcdatamodel */,
+			);
+			currentVersion = 4910C3FD1C437E6300111F99 /* molakeFramework.xcdatamodel */;
+			path = molakeFramework.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4910C3E51C437E6300111F99 /* Project object */;
+}
