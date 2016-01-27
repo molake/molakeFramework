@@ -17,7 +17,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
     return YES;
+}
+
+#pragma mark --  隐藏键盘头部区域
+- (void)hideInputTop{
+    #if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_9_0 // 当前支持的sdk版本是否低于9.0
+        [UIApplication sharedApplication].inputAssistantItem.leadingBarButtonGroups = nil;
+        [UIApplication sharedApplication].inputAssistantItem.trailingBarButtonGroups = nil;
+    #endif
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -28,6 +37,14 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+
+#pragma mark --  延长后台时间至十分钟
+    UIApplication *app=[UIApplication sharedApplication];
+    __block UIBackgroundTaskIdentifier taskId;
+    taskId=[app beginBackgroundTaskWithExpirationHandler:^(void){
+        [app endBackgroundTask:taskId];
+    }];
+
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
