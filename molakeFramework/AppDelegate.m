@@ -23,6 +23,9 @@
 
 #pragma mark --  隐藏键盘头部区域
 - (void)hideInputTop{
+    
+    //just for test
+    
     #if __IPHONE_OS_VERSION_MAX_ALLOWED > __IPHONE_9_0 // 当前支持的sdk版本是否低于9.0
         [UIApplication sharedApplication].inputAssistantItem.leadingBarButtonGroups = nil;
         [UIApplication sharedApplication].inputAssistantItem.trailingBarButtonGroups = nil;
